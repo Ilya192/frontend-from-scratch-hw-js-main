@@ -5,8 +5,9 @@
 
 let sum = 20
 
-while (sum >=0)
+while (sum <=20)
     console.log (sum )
+
  
  
 
