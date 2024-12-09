@@ -4,13 +4,13 @@
 // your code
 
 let sum = 0
+let num = 1
 
-let number = 1 
-while (sum <=20) {
-sum = sum + number
-++number
+while (num <= 20) {
+    sum += num
+    num++
 }
-    console.log (sum)
+console.log (sum)
 
 
 

@@ -16,6 +16,7 @@ while (n <= 20) {
 }
 
 
+
 console.log(sum);
 
 
