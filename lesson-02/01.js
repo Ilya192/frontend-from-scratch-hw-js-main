@@ -13,6 +13,13 @@ const isVerifiedUser = true
 const hasSpecialPermission = true
 const hasTemporaryPass = false
 
-let isAccess
+const validateCondition = isVerifiedUser ? hasSpecialPermission || hasTemporaryPass : false
+let isAccess = isAdmin ? true : validateCondition
+
 
 // your code
+
+// 1. isADmin = true 
+// 2. isVerifiedUser and hasSpecialPermission or hasTemporaryPass
+
+
