@@ -5,6 +5,31 @@
  */
 
 const score = 70 // тестовое значение, можно изменять
-let grade
+let grade 
 // your code
 
+
+
+
+
+
+if (score  >= 0 && score < 50 ) {
+grade = "F"
+
+} else if (score >=50 && < 70)        {  
+grade = "D"
+
+ } else if (score >=70 && < 80) {
+grade = "C"
+
+ } else if (score >=80 && < 90) {
+grade = "B"
+ } else if (score >=90 && < 100) {
+grade = "A"
+ } else {
+    grade = "Некорректный балл"
+ }
+
+
+
+console.log("Оценка" + grade)
