@@ -13,7 +13,7 @@ let grade
 
 
 
-if (score  >= 0 && score < 49 ) {
+if (score  >= 0 && score < 45 ) {
 grade = "F"
 
 } else if (score >=50 && < 70)   {  
