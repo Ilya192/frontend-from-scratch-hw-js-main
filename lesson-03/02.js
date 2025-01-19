@@ -8,7 +8,7 @@ function isEven(num) {
     return true
   } else {
     console.log(false);
-    false
+    return false
   }
 }
 isEven(2)
