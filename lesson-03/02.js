@@ -11,8 +11,8 @@ function isEven(num) {
     false
   }
 }
-isEven(1)
 isEven(2)
+isEven(1)
 
 
 // const isEven = (num) => num % 2 === 0
