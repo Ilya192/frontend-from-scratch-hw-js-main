@@ -11,13 +11,13 @@ function isEven(num) {
     false
   }
 }
-
+isEven(1)
+isEven(2)
 
 
 // const isEven = (num) => num % 2 === 0
 
-isEven(1)
-isEven(2)
-isEven(5)
-isEven(12)
-isEven(98)
+
+// isEven(5)
+// isEven(12)
+// isEven(98)
