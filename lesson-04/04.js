@@ -11,5 +11,9 @@
 
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
+let str = ("Hi")
+function doubleEachCharacter("Hi") {
 
-function doubleEachCharacter() {}
+    
+}
+alert(str)
